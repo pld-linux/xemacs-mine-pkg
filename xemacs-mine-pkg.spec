@@ -2,7 +2,7 @@ Summary:	Minehunt Game
 Summary(pl):	Minehunt Game
 Name:		xemacs-mine-pkg
 %define 	srcname	mine
-Version:	1.13
+Version:	1.14
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
