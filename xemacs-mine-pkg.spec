@@ -1,11 +1,12 @@
 Summary:	Minehunt Game
-Summary(pl):	Minehunt Game
+Summary(pl):	Gra Minehunt
 Name:		xemacs-mine-pkg
 %define 	srcname	mine
 Version:	1.14
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -16,8 +17,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Minehunt Game.
 
 %description -l pl 
+Gra Minehunt.
 
 %prep
 %setup -q -c
