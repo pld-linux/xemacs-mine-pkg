@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Minehunt Game.
 
-%description -l pl 
+%description -l pl
 Gra Minehunt.
 
 %prep
@@ -29,14 +29,14 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/mine/ChangeLog 
+gzip -9nf lisp/mine/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/mine/ChangeLog.gz 
+%doc lisp/mine/ChangeLog.gz
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
