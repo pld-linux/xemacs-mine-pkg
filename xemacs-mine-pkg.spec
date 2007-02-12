@@ -1,5 +1,5 @@
 Summary:	Minehunt Game
-Summary(pl.UTF-8):   Gra Minehunt
+Summary(pl.UTF-8):	Gra Minehunt
 Name:		xemacs-mine-pkg
 %define 	srcname	mine
 Version:	1.16
