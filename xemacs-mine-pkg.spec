@@ -1,5 +1,5 @@
 Summary:	Minehunt Game
-Summary(pl):	Gra Minehunt
+Summary(pl.UTF-8):   Gra Minehunt
 Name:		xemacs-mine-pkg
 %define 	srcname	mine
 Version:	1.16
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Minehunt Game.
 
-%description -l pl
+%description -l pl.UTF-8
 Gra Minehunt.
 
 %prep
