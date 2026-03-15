@@ -3,12 +3,12 @@ Summary(pl.UTF-8):	Gra Minehunt
 Name:		xemacs-mine-pkg
 %define 	srcname	mine
 Version:	1.16
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	3875c5eb3c58306db3c875a18ba56ff6
-URL:		http://www.xemacs.org/
+URL:		https://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
